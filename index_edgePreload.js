@@ -52,8 +52,8 @@ if(document.addEventListener ){
    aLoader = [
     { load: "edge_includes/jquery-1.7.1.min.js"},
     { load: "edge_includes/edge.1.5.0.min.js"},
-          { load: "sample_edge.js"},
-          { load: "sample_edgeActions.js"}];
+          { load: "index_edge.js"},
+          { load: "index_edgeActions.js"}];
 
 if (AdobeEdge.bootstrapLoading) { signaledLoading = true; AdobeEdge.loadResources=doLoadResources; AdobeEdge.playWhenReady=playWhenReady; }
 
@@ -67,4 +67,4 @@ dlContent={dom: [
 ]}
 ;//simpleContent
 
-})( "EDGE-4165546");
+})( "EDGE-2660585");
